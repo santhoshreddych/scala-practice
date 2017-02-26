@@ -1,4 +1,4 @@
-package com.scala.practice
+package com.scala.practice.basic
 
 object matchpractice extends App {
    def matchTest(x: Any): Any = x match {

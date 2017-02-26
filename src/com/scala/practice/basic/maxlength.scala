@@ -1,4 +1,4 @@
-package com.scala.practice
+package com.scala.practice.basic
 
 object maxlength extends App{
  

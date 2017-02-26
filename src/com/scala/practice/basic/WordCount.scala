@@ -1,4 +1,4 @@
-package com.scala.practice
+package com.scala.practice.basic
 import scala.collection.immutable.ListMap
 object WordCount extends App {
   val inputLine = io.Source.fromFile("/Users/santhoshreddychintala/Documents/Happy/Interview/Scala/wordcount").getLines.toList

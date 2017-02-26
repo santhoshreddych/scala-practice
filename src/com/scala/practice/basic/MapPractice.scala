@@ -1,4 +1,4 @@
-package com.scala.practice
+package com.scala.practice.basic
 
 object MapPractice extends App {
   val inputMap= Map(1->"santhosh",2->"Rahul",3->"Sahu",4->"Raj",4->"prakash");

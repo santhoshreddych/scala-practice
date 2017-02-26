@@ -1,4 +1,4 @@
-package com.scala.practice
+package com.scala.practice.basic
 
 object Anagram {
   def main(args:Array[String]){

@@ -1,4 +1,4 @@
-package com.scala.practice
+package com.scala.practice.linkedlist
 
 class Node(var data:Int) {
 var item:Int=data

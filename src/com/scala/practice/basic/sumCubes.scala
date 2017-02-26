@@ -1,4 +1,4 @@
-package com.scala.practice
+package com.scala.practice.basic
 
 object sumCubes extends App {
   def product(f:Int => Int) (a:Int,b:Int):Int =

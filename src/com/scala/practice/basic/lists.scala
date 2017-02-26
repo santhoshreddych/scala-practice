@@ -1,4 +1,4 @@
-package com.scala.practice
+package com.scala.practice.basic
 
 object lists extends App {
   val intList=List(1,5,7,9);
