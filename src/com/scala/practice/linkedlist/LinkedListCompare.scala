@@ -1,3 +1,15 @@
+/*
+ * Author: Santhosh Reddy Chintala
+ * Given two linked lists, represented as 
+ * linked lists (every character is a node in linked list). 
+ * Write a function compare() that works similar to strcmp(), i.e., 
+ * it returns 0 if both strings are same,
+ *  1 if first linked list is lexicographically greater,
+ *  and -1 if second string is lexicographically greater.
+ * 
+ */
+
+
 package com.scala.practice.linkedlist
 
 class Node1(var data:Char) {
@@ -11,7 +23,7 @@ object LinkedListCompare {
    //declare first linked list
   val node1 =new Node1('a');
   val second = new Node1('b')
-  val third = new Node1('z')
+  val third = new Node1('d')
   node1.next1=second;
   second.next1=third;
   var head1=node1
@@ -25,7 +37,7 @@ object LinkedListCompare {
   second2.next1=third2;
   var head2=node2
   val x= compare(head1,head2)
-  println("value of x is: "+x)
+  println(" "+x)
   
   
 }
@@ -45,6 +57,9 @@ object LinkedListCompare {
  }
  else if(temp1!=null && temp2!=null && temp1.data<temp2.data){
    returnValue= -1
+ }
+ else if(temp1==null && temp2==null){
+  returnValue= 0
  }
  else if(temp1!=null && temp2==null){
   returnValue= 1
