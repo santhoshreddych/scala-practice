@@ -26,6 +26,8 @@ object LinkedListCompare {
   var head2=node2
   val x= compare(head1,head2)
   println("value of x is: "+x)
+  
+  
 }
  def compare(head1:Node1,head2:Node1):Int={
    var temp1=head1;
