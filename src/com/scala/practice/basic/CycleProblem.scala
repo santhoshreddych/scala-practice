@@ -13,7 +13,7 @@ package com.scala.practice.basic
 
 object CycleProblem {
   def main(args: Array[String]){
-    val input:Array[Int]=Array(-1000,1000,-30,70,80,20,100,110,-120,-180,120,-1800)
+    val input:Array[Int]=Array(-1000,1000,-30,70,80,20,100,110,-120,-180,120)
     val minVal=input.reduceLeft(_ min _)
     val maxVal=input.reduceLeft(_ max _)
     var maxDistance=0
@@ -21,10 +21,11 @@ object CycleProblem {
     for(i<-minVal to maxVal){
       var distance =0
       for(j<-0 to input.length-1){
-        distance=distance+(i-input(j))
+        distance=distance+Math.abs(i-input(j))
       }
       if(distance > maxDistance) 
-        {maxDistance=distance
+        {
+        maxDistance=distance
         index=i
         }
     }
