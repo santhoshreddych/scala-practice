@@ -1,5 +1,5 @@
 /*
- * Author: Santhosh Reddy Chintala
+ * Author: 
  * Given an integer array find the distance find the index that ranges between minimum and maximum value of Array and that has the maximum distance from all the array elements. 
  * 
  * 
